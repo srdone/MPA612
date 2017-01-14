@@ -1,5 +1,9 @@
 export const definitions = [
   {
+    name: 'Economics',
+    description: `The study of how individuals make decisions in the context of limited resources.`
+  },
+  {
     name: 'Positive statements',
     description: `What is. Statements based on facts and data.`
   },
@@ -99,5 +103,17 @@ export const definitions = [
     name: 'Distributional Equity',
     description: `Normative questions about the distribution of benefits and costs among
       individuals and groups in society.`
+  },
+  {
+    name: 'Supply',
+    description: `The amount of a good that a producer is willing to provide to the marketplace for any given price.
+      Factors that affect supply include the good's own price, prices of inputs, producer expectations,
+      and government prices and regulation.`
+  },
+  {
+    name: 'Demand',
+    description: `The amount of a good that a consumer is willing to buy for any given price.
+      Factors affecting demand include the good's own price, the price of related goods, income,
+      tastes and preferences, and consumer expectations about the future.`
   }
 ];
