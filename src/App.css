@@ -28,3 +28,7 @@
   font-size: 11px;
   display: inline;
 }
+
+.video-container {
+  display: block;
+}

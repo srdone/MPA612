@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import { definitions } from './definitions';
-import { Repeat, Definition } from './components';
+import { videos } from './videos';
+import { Repeat, Definition, YouTubeVideo } from './components';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
         </div>
         <Repeat data={definitions} parentClass="definitions">
           <Definition/>
+        </Repeat>
+        <Repeat data={videos}>
+          <YouTubeVideo />
         </Repeat>
       </div>
     );
