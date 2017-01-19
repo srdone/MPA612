@@ -13,7 +13,7 @@
   font-size: large;
 }
 
-.definitions {
+.definitions, .examples {
   list-style-type: none;
   text-align: left;
 }
@@ -27,6 +27,10 @@
   font-style: italic;
   font-size: 11px;
   display: inline;
+}
+
+.example {
+  font-size: 11px;
 }
 
 .video-container {
