@@ -1,4 +1,4 @@
-export const definitions = [
+export const econDefinitions = [
   {
     name: 'Economics',
     description: `The study of how individuals make decisions in the context of limited resources.`

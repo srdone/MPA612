@@ -1,4 +1,4 @@
-export const videos = [
+export const econVideos = [
   {
     title: 'What is Economics',
     youTubeID: 'h3TJfjCPGWI',
