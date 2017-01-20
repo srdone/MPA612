@@ -15,10 +15,18 @@ export const grammarDefinitions = [
       modified noun.
     `,
     examples: [
-      '25-year-old company',
-      'a greatly exaggerated claim',
-      'New Zeland exports',
-      'our HR manager is risk-averse by nature'
+      {
+        correct: '25-year-old company'
+      },
+      {
+        correct: 'a greatly exaggerated claim'
+      },
+      {
+        correct: 'New Zeland exports'
+      },
+      {
+        correct: 'our HR manager is risk-averse by nature'
+      }
     ]
   },
   {
@@ -30,7 +38,9 @@ export const grammarDefinitions = [
       it but always right to include it.
     `,
     examples: [
-      'red, white, and blue'
+      {
+        correct: 'red, white, and blue'
+      }
     ]
   },
   {
@@ -43,10 +53,18 @@ export const grammarDefinitions = [
       in the predicates, use semicolons as separators.
     `,
     examples: [
-      'I stopped by yesterday, and I will call today',
-      'I stopped by yesterday and will call today',
-      'I wrote him yesterday, stopped by yesterday, and will call today',
-      'I wrote him last week; I stopped by yesterday with the paperwork, the deposit check, and the keys; and I will call him today'
+      {
+        correct: 'I stopped by yesterday, and I will call today'
+      },
+      {
+        correct: 'I stopped by yesterday and will call today'
+      },
+      {
+        correct: 'I wrote him yesterday, stopped by yesterday, and will call today'
+      },
+      {
+        correct: 'I wrote him last week; I stopped by yesterday with the paperwork, the deposit check, and the keys; and I will call him today'
+      }
     ]
   },
   {
@@ -57,11 +75,21 @@ export const grammarDefinitions = [
       don't use apostrophes to make nouns plural.
     `,
     examples: [
-      'Mind your p\'s and q\'s',
-      'ATMs',
-      '1990s',
-      'Please delete the first two ors in a sentence',
-      'Mr. and Mrs. Smith are the Smiths'
+      {
+        correct: 'Mind your p\'s and q\'s'
+      },
+      {
+        correct: 'ATMs'
+      },
+      {
+        correct: '1990s'
+      },
+      {
+        correct: 'Please delete the first two ors in a sentence'
+      },
+      {
+        correct: 'Mr. and Mrs. Smith are the Smiths'
+      }
     ]
   },
   {
@@ -72,8 +100,12 @@ export const grammarDefinitions = [
       Deviations from the rule are used for emphasis.
     `,
     examples: [
-      'Maeve Peterson, the new CEO, is..',
-      'Ms. Peterson, whose leadership ..., will take the reins ...'
+      {
+        correct: 'Maeve Peterson, the new CEO, is..'
+      },
+      {
+        correct: 'Ms. Peterson, whose leadership ..., will take the reins ...'
+      }
     ]
   },
   {
@@ -96,8 +128,12 @@ export const grammarDefinitions = [
       be, or to show where a quotation begins.
     `,
     examples: [
-      '*Here\'s the "final" schedule',
-      '*An "expert" in negotiation'
+      {
+        incorrect: 'Here\'s the "final" schedule'
+      },
+      {
+        incorrect: 'An "expert" in negotiation'
+      }
     ]
   },
   {
@@ -110,15 +146,33 @@ export const grammarDefinitions = [
       (3) with certain prefixes (e.g. all-, ex-, self-). 
     `,
     examples: [
-      'anteroom',
-      'biennial',
-      'deselect',
-      'cooperate',
-      'misspeak',
-      're-lease vs release',
-      're-sign vs resign',
-      'all-inclusive',
-      'self-correcting'
+      {
+        correct: 'anteroom'
+      },
+      {
+        correct: 'biennial'
+      },
+      {
+        correct: 'deselect'
+      },
+      {
+        correct: 'cooperate'
+      },
+      {
+        correct: 'misspeak'
+      },
+      {
+        correct: 're-lease vs release'
+      },
+      {
+        correct: 're-sign vs resign'
+      },
+      {
+        correct: 'all-inclusive'
+      },
+      {
+        correct: 'self-correcting'
+      }
     ]
   },
   {
@@ -129,8 +183,12 @@ export const grammarDefinitions = [
       phrases.
     `,
     examples: [
-      'Customer Service--it\'s our top priority',
-      '... long dashes--called em-dashes--frame'
+      {
+        correct: 'Customer Service--it\'s our top priority'
+      },
+      {
+        correct: '... long dashes--called em-dashes--frame'
+      }
     ]
   },
   {
@@ -141,9 +199,15 @@ export const grammarDefinitions = [
       and year, nor when writing in day-month-year format.
     `,
     examples: [
-      'February 2012',
-      '23 February 2012',
-      'February 23, 2012'
+      {
+        correct: 'February 2012'
+      },
+      {
+        correct: '23 February 2012'
+      },
+      {
+        correct: 'February 23, 2012'
+      }
     ]
   },
   {
@@ -158,14 +222,132 @@ export const grammarDefinitions = [
       after the S.
     `,
     examples: [
-      'Holtz\'s contract',
-      'Xerox\'s patients',
-      'mine, our, ours, your, yours',
-      'The United Arab Emirates\' campital is Abu Dhabi',
-      'the caterers\' fee'
+      {
+        correct: 'Holtz\'s contract'
+      },
+      {
+        correct: 'Xerox\'s patients'
+      },
+      {
+        correct: 'mine, our, ours, your, yours'
+      },
+      {
+        correct: 'The United Arab Emirates\' campital is Abu Dhabi'
+      },
+      {
+        correct: 'the caterers\' fee'
+      }
     ]
   },
   {
-    title: ''
+    title: 'Handling Pronouns',
+    category: CATEGORY.CORRECT_GRAMMAR_BASICS,
+    description: `
+      I, we, he, and she are subjects of phrases. Me, us, 
+      him, and her are objects of either verbs or prepositions.
+      To test with compound phrasings, try leaving out the named
+      subject.
+    `,
+    examples: [
+      {
+        correct: 'She placed an order with Megan and me',
+        incorrect: 'She placed an order with Megan and I'
+      },
+      {
+        correct: 'This is he',
+        incorrect: 'This is him'
+      },
+      {
+        correct: 'Who may I say is calling?',
+        incorrect: 'Whom may I say is calling?'
+      }
+    ]
+  },
+  {
+    title: 'Subject-verb disagreement',
+    category: CATEGORY.CORRECT_GRAMMAR_BASICS,
+    description: `
+      Verbs must agree in person and number with the
+      subject. 'There' causes issues because it appears to
+      be a subject but is not - it is an expletive (a word
+      that stands in for the subject in an inverted sentence).
+      Objects of prepositional phrases are never the subject,
+      but can be confusing because they are nearer the verb.
+      In compound subjects with either/or, neither/nor, the 
+      verb must match the number of the noun that follows the
+      or or nor.
+    `,
+    examples: [
+      {
+        incorrect: 'There is always risk and liability considerations to take into account.',
+        correct: 'There are always risk and liability considerations to take into account.'
+      },
+      {
+        incorrect: 'There is many options to avoid a takeover.',
+        correct: 'There are many options to avoid a takeover.'
+      },
+      {
+        incorrect: 'The details of the customized work is delaying the project.',
+        correct: 'The details of the customized work are delaying the project.'
+      },
+      {
+        incorrect: 'The source of our replacement parts and maintenance have not been selected yet.',
+        correct: 'The source for our replacement parts and maintenance has not been selected yet.'
+      },
+      {
+        incorrect: 'Special services or a new product target a niche market.',
+        correct: 'Special services or a new product targets a niche market.'
+      },
+      {
+        incorrect: 'Special services or a new product targets a niche market.',
+        correct: 'Neither the education fund nor the training costs are without budget constraints.'
+      }
+    ]
+  },
+  {
+    title: 'Noun-pronoun disagreement',
+    description: `
+      A pronoun must have the same gender and number as the subject.
+      When the gender isn't clear, don't use 'their' and avoid Using
+      only one of the gendered pronouns (e.g. her). Instead, get
+      creative with how you construct the sentence. When the subject
+      of a sentence is a singluar pronoun such as either, neither,
+      each, or every, other nouns accompanying it may have no effect
+      on the number of the verb.
+    `,
+    examples: [
+      {
+        incorrect: 'A shareholder may cast their vote for only one member of the board',
+        correct: 'A shareholder may cast his or her vote for only one member of the board'
+      },
+      {
+        incorrect: `Either the receptionist or the sales assistant will have to
+        change their lunch hour so that at least one will be in the office at all times`,
+        correct: `Either the receptionist or the sales assistant will have to start
+        taking lunch earlier or later so that at least one will be in the office at all times.`
+      },
+      {
+        incorrect: 'Have either of our clients arrived yet?',
+        correct: 'Has either of our clients arrived yet?'
+      }
+    ]
+  },
+  {
+    title: 'Double negatives',
+    description: `
+      Only use double negatives when you mean to negate the first one.
+      It is incorrect to use two negatives in order to intensify them.
+      An example that is tricky is not ... but
+    `,
+    examples: [
+      {
+        incorrect: `We couldn't scarcely manage to keep up with the demand.`,
+        correct: `We could scarcely manage to keep up with the demand.`
+      },
+      {
+        incorrect: `The clerk couldn't help but call the manager for advice.`,
+        correct: `The clerk couldn't help calling the manager for advice.`
+      }
+    ]
   }
 ]

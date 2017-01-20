@@ -115,5 +115,88 @@ export const econDefinitions = [
     description: `The amount of a good that a consumer is willing to buy for any given price.
       Factors affecting demand include the good's own price, the price of related goods, income,
       tastes and preferences, and consumer expectations about the future.`
+  },
+  {
+    title: 'Market Demand Curve',
+    description: `The sum of all the individual demand cureves of the consumers in a market`
+  },
+  {
+    title: 'Market Supply Curve',
+    description: `The sum of all of the individual supply curves for producers in a market`
+  },
+  {
+    title: 'Equilibrium',
+    description: 'The balancing of forces between supply and demand'
+  },
+  {
+    title: 'Equilibrium Point',
+    description: `The intersection of supply and demand, illustrating the equilibrium
+    price and equilibrium quantity. It represents the point at which consumers are
+    willing and able to buy everything producers are willing and able to sell at a
+    mutually acceptable price and quantity.`
+  },
+  {
+    title: 'Competitive market',
+    description: `A market where no individual consumer or producer can significantly
+    influence the price of the good. In a perfectly competitive market, three conditions
+    hold: (1) Many consumers and producers, (2) Homogeneous or indistinguishable products,
+    (3) Easy entrance into and exit from the market.`
+  },
+  {
+    title: 'Shortage',
+    description: `A condition where price is below the equilibrium price, so the 
+    quantity supplied by producers is less than the quantity demanded by consumers.`
+  },
+  {
+    title: 'Surplus',
+    description: `A condition where price is above the equilibrium price, so
+    the quantity supplied by producers is larger than the quantity demanded by
+    consumers.`
+  },
+  {
+    title: 'General equilibrium analysis',
+    description: `Analysis of interrelationships between markets and cross-price effects.`
+  },
+  {
+    title: 'Partial equilibrium analysis',
+    description: `Analysis of a single market, ignoring effects on other markets.`
+  },
+  {
+    title: 'Tax',
+    description: `A payment to the government on the production or consumption
+    of a good or a service. When paid by the producer, causes the supply curve to
+    shift down at every point by the size of the tax. When paid by the consumer,
+    causes the demand curve to shift down at every point by the size of the tax.`
+  },
+  {
+    title: 'Subsidy',
+    description: `A payment by the government for the production of a good or service.
+    When received by the producer, causes the supply curve to shift up at every
+    point by the size of the subsidy. When received by the consumer, causes the
+    demand curve to shift up at every point by the size of the subsidy.`
+  },
+  {
+    title: 'Incidence of Tax or Subsidy',
+    description: `Analysis of the ultimate economic effects on consumers and producers
+    of a service. The incidence of a tax or subsidy falls most heavily on the side
+    of the market that is less price elastic.`
+  },
+  {
+    title: 'Progressive, regressive, and proportional taxes',
+    description: `Regressive taxes decrease as income increases, Progressive
+    taxes increase as income increases, and proportional taxes are equal
+    for all income levels.`
+  },
+  {
+    title: 'Price floors',
+    description: `Establish a minimum price at which a good may be sold.`
+  },
+  {
+    title: 'Price ceilings',
+    description: `Establish a maximum price at which a good may be sold.`
+  },
+  {
+    title: 'Output quotas',
+    description: `Restrict the quantity that can be brought to market.`
   }
 ];
