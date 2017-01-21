@@ -1,6 +1,8 @@
 export const CATEGORY = {
   PUNCTUATION: 'Punctuation',
-  CORRECT_GRAMMAR_BASICS: 'Correct Grammar Basics'
+  CORRECT_GRAMMAR_BASICS: 'Correct Grammar Basics',
+  DONT_ANESTHETIZE_YOUR_READERS: `Don't anesthetize your readers.`,
+  MUST_KNOW_GRAMMAR_RULES: `A dozen grammatical rules you absolutely need to know`
 }
 
 export const grammarDefinitions = [
@@ -306,6 +308,7 @@ export const grammarDefinitions = [
   },
   {
     title: 'Noun-pronoun disagreement',
+    category: CATEGORY.CORRECT_GRAMMAR_BASICS,
     description: `
       A pronoun must have the same gender and number as the subject.
       When the gender isn't clear, don't use 'their' and avoid Using
@@ -334,6 +337,7 @@ export const grammarDefinitions = [
   },
   {
     title: 'Double negatives',
+    category: CATEGORY.CORRECT_GRAMMAR_BASICS,
     description: `
       Only use double negatives when you mean to negate the first one.
       It is incorrect to use two negatives in order to intensify them.
@@ -347,6 +351,171 @@ export const grammarDefinitions = [
       {
         incorrect: `The clerk couldn't help but call the manager for advice.`,
         correct: `The clerk couldn't help calling the manager for advice.`
+      }
+    ]
+  },
+  {
+    title: 'Nonstandard vocabulary',
+    category: CATEGORY.CORRECT_GRAMMAR_BASICS,
+    description: `
+      Always use standard english, not dialect.
+    `,
+    examples: [
+      {
+        incorrect: `Where's the meeting at?`,
+        correct: `Where's the meeting?`
+      },
+      {
+        incorrect: `Me and Kim will handle the Brewster account.`,
+        correct: `Kim and I will handle the Brewster account.`
+      },
+      {
+        incorrect: `They shouldn't of submitted those incomplete reports`,
+        correct: `They shouldn't have submitted those incomplete reports`
+      }
+    ]
+  },
+  {
+    title: 'Use pronouns skillfully',
+    category: CATEGORY.DONT_ANESTHETIZE_YOUR_READERS,
+    description: `
+      Don't overuse I, lean heavily on we, our, you, and your. Write
+      directly to you, the person you're trying to reach.
+    `,
+    examples: [
+      {
+        incorrect: 'This applies to citizens over 65',
+        correct: `If you're over 65, this applies to you.`
+      }
+    ]
+  },
+  {
+    title: 'Use contractions',
+    category: CATEGORY.DONT_ANESTHETIZE_YOUR_READERS,
+    description: `
+      It isn't incorrect to use contractions. But don't overuse them.
+      If you would say something as a contraction, write it that way.
+      If not, don't.
+    `,
+    examples: [
+      {
+        incorrect: 'We will inform all winners by telephone',
+        correct: `We'll call you if you win`
+      }
+    ]
+  },
+  {
+    title: 'Avoid passive voice',
+    category: CATEGORY.DONT_ANESTHETIZE_YOUR_READERS,
+    description: `
+      Avoid passive voice. Sometimes it is the most natural way or
+      can't be avoided. This helps avoid convoluted sentences.
+    `,
+    examples: [
+      {
+        incorrect: `The closing documents were prepared by Sue`,
+        correct: `Sue prepared the closing documents`
+      }
+    ]
+  },
+  {
+    title: 'Vary the length and structure of your sentences',
+    category: CATEGORY.DONT_ANESTHETIZE_YOUR_READERS,
+    description: `
+      Monotony creates boredom. Vary the length and structure of sentences.
+    `
+  },
+  {
+    title: 'Avoid alphabet soup',
+    category: CATEGORY.DONT_ANESTHETIZE_YOUR_READERS,
+    description: `
+      Acroynyms are tiresome, especially when readers aren't familiar with them.
+      They cause readers to search for the definition, breaking the flow of the
+      writing. Stick to words whn you can.
+    `
+  },
+  {
+    title: 'You can start a sencence with And or But',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      And and But are very effective transitions, much better than
+      words like Additionally and However.
+    `
+  },
+  {
+    title: 'You can end a sentence with a preposiition',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      Ending sentences with prepositions often feels far more natural,
+      and there is nothing wrong with it. The only drawback is that it
+      is not a natural way to end a sentence.
+    `
+  },
+  {
+    title: 'Good vs Well',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      When describing performance, manner, action, etc., use Well.
+      Using Good in the place of Well is ungrammatical. There are only
+      a few set phrases where you can use Good as an adverb.
+    `,
+    examples: [
+      {
+        correct: 'The intern works well under pressure',
+        incorrect: 'The intern works good under pressure'
+      },
+      {
+        correct: 'A good many more'
+      }
+    ]
+  },
+  {
+    title: 'The subject of the sentence determines the number of the verb',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      A subject and its verb must both be either singular or plural.
+      Prepositional prhases modifying the subject can cause confustion.
+      Using There as a subject stand in also causes confusion, as the true
+      subject in this case always follows the verb.
+    `,
+    examples: [
+      {
+        correct: `The company's bread and butter is still shipping`,
+        incorrect: `The company's bread and butter are still shipping`
+      },
+      {
+        correct: `There go our fourth quarter profits`,
+        incorrect: `There goes our fourth quarter profits`
+      }
+    ]
+  },
+  {
+    title: 'Both either and neither as subjects take singular verbs',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      Don't be distracted by prepositional phrases containing plural
+      objects. The subject (either or neither) is still singular.
+    `,
+    examples: [
+      {
+        correct: `Either of the marketing plans involves capital investment`,
+        incorrect: `Either of the marketing plans involve capital investment`
+      }
+    ]
+  },
+  {
+    title: 'With neither/nor and either/or, the second element controls the number of the verb',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      When either/or, neither/nor is in the subject position, the second element
+      controls the plurality of the verb.
+    `,
+    examples: [
+      {
+        correct: `Neither the regional managers nor the vice president for sales
+        likes the proposed campaign's theme.`,
+        incorrect: `Neither the regional managers nor the vice president for sales
+        like the proposed campaign's theme.`
       }
     ]
   }
