@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Link } from 'react-router';
 
-import { econDefinitions, econVideos, grammarDefinitions } from './data';
-import { Repeat, Definition, YouTubeVideo } from './components';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -10,18 +9,16 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Winter Semester 2017 Notes</h2>
+          <nav className="main-nav">
+            <ul>
+              <li><Link to={'/economics'}>Economics</Link></li>
+              <li><Link to={'/communication'}>Communication</Link></li>
+            </ul>
+          </nav>
         </div>
-        <h3>Economics</h3>
-        <Repeat data={econDefinitions} parentClass="definitions">
-          <Definition/>
-        </Repeat>
-        <Repeat data={econVideos}>
-          <YouTubeVideo />
-        </Repeat>
-        <h3>Grammar and Good Writing</h3>
-        <Repeat data={grammarDefinitions} parentClass="definitions">
-          <Definition/>
-        </Repeat>
+        <div className="App-content">
+          {this.props.children}
+        </div>
       </div>
     );
   }
