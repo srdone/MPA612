@@ -518,5 +518,106 @@ export const grammarDefinitions = [
         like the proposed campaign's theme.`
       }
     ]
+  },
+  {
+    title: 'Flat adverbs take no -ly ending',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      Some adverbs don't take an -ly ending.
+    `,
+    examples: [
+      {
+        correct: 'doubtless',
+        incorrect: 'doubtlessly'
+      },
+      {
+        correct: 'thus',
+        incorrect: 'thusly'
+      }
+    ]
+  },
+  {
+    title: 'However, Therefore, and Otherwise require additional punctuation with independent clauses',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      When using However, Therefore, and Otherwise to join two independent clauses,
+      they must be preceeded by a semicolon and followed by a comma.
+    `,
+    examples: [
+      {
+        correct: `Mr. Bingham can't attend the meeting; however, he hopes to call
+        before we adjourn.`
+      }
+    ]
+  },
+  {
+    title: 'In verb phrases, adverbs usually follow the first auxiliary verb',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      Midphrase is the strongest and most natural place for an adverb. It isn't
+      ungrammatical to split an infinitive.
+    `,
+    examples: [
+      {
+        correct: `Industry experts have long agreed`,
+        incorrect: `Industry experts have agreed long on the product's effectiveness`
+      },
+      {
+        correct: `It has long been assumed`
+      }
+    ]
+  },
+  {
+    title: 'Relative pronouns must appear next to their antecedents',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      The relative pronouns, (e.g. That, Which, Who, and Whom), either
+      link a dependent clause to ain independent one, or join a clause to
+      it's antecedent. The second usage requires that the relative pronoun
+      appear close to it's antecedent for clarity.
+    `,
+    examples: [
+      {
+        correct: `Please discuss the customer-service position that is being
+        eliminated in the accounting department.`,
+        incorrect: `Please discuss the customer-service position in the accounting
+        department that is being eliminated.`
+      }
+    ]
+  },
+  {
+    title: 'Commas and appositives',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      An appositive is a noun or phrase that follows another noun provides additional
+      identifying details. They may or may not be essential to the sentence. When they
+      are essential, they are not set off by commas. When they are not essential, they
+      are set off by commas.
+    `,
+    examples: [
+      {
+        correct: `My colleague Pat agrees`
+      },
+      {
+        correct: `The customer, a tall man in an oversized suit, left his keys
+        on the counter.`
+      }
+    ]
+  },
+  {
+    title: 'Correlative conjunctions require parallel phrasing',
+    category: CATEGORY.MUST_KNOW_GRAMMAR_RULES,
+    description: `
+      Correlative conjunctions work in pairs. The constructions
+      they join must match in syntax.
+    `,
+    examples: [
+      {
+        correct: `We raised not only our regional market share, but also our
+        profit margin.`,
+        incorrect: `We not only raised our regional market share but also
+        our profit margin.`
+      }
+    ]
   }
 ]
