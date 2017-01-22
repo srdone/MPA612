@@ -198,5 +198,97 @@ export const econDefinitions = [
   {
     title: 'Output quotas',
     description: `Restrict the quantity that can be brought to market.`
+  },
+  {
+    title: 'Utility',
+    description: `The satisfaction or pleasure derived from consumption.
+    Economics assumes that consumers are rational - that they will use their
+    resources to obtain the goods and services that maximize their utility.
+    Interpersonal comparisons of utility cannot be performed in a scientifically
+    valid way.`
+  },
+  {
+    title: 'Marginal utility',
+    description: `The additional amount of satisfaction that an individual
+    derives from consuming an additional unit of a good, ceterus paribus.`
+  },
+  {
+    title: 'Total utility',
+    description: `The total amount of satisfaction derived from consuming
+    a certain quantity.`
+  },
+  {
+    title: 'Utility maximizing rule',
+    description: `To maximize satisfaction, consumers should expend their
+    resources such that the last resource spent on each product yields the same
+    amount of marginal utility.`
+  },
+  {
+    title: 'Willingness to pay',
+    description: `A measure of how consumers evaluate the worth of various goods
+    and services. Does not necessarily reflect the amount of utility an individual
+    would obtain from the good or service.`
+  },
+  {
+    title: 'Consumer surplus',
+    description: `The difference between what a consumer was willing to pay for
+    a service and what they actually paid.`
+  },
+  {
+    title: 'Indifference curve',
+    description: `Represents the different combinations of two goods that
+    would provide the consumer equal satisfaction. Economics assumes that
+    individuals will always prefer combinations of goods that yield higher
+    levels of satisfaction, but would be indifferent among combinations of
+    goods along a particular indifference curve. For indifference curves
+    generally:
+    (1) utility increases as indifference curves move away from the origin.
+    (2) Utility is constant along any one indifference curve.
+    (3) Utilities are ordinal - An indifference curve at any one position
+    reflects higher utility levels than curves below it, but they cannot
+    be compared mathematically.
+    (4) Utilities cannot be compared between individuals.
+    (5) Indifference curves are generally convex toward the origin,
+    because consumers require larger amounts of one good to compensate for
+    lesser amounts of the sacrificed good.`
+  },
+  {
+    title: 'Substitution effect',
+    description: `As the price of a good increases, its substitutes look more
+    attractive, and a consumer will buy less of that good and more of a substitute
+    good.`
+  },
+  {
+    title: 'Income effect',
+    description: `As the price of a good increases, a consumer's overall purchasing
+    power decreases, thereby reducing that consumer's demand for that good.`
+  },
+  {
+    title: `Budget line`,
+    description: `The line showing the boundary between possible distribution
+    of purchases of goods and impossible ones given the current levels of consumption.
+    The point of maximum utility is where the budget curce is tangent to the 
+    indifference curve.`
+  },
+  {
+    title: 'Income expansion path',
+    description: `Shows the relationship between changes in income and the
+    different levels of consumption that maximize utility.`
+  },
+  {
+    title: 'Income grant',
+    description: `A grant to an organization that carries no restrictions on
+    its use. Behaves like an increase in income.`
+  },
+  {
+    title: 'Subsidy grant',
+    description: `A grant that reimburses the organization a particular 
+    percentage of the costs for an activity. Behaves like a change in prices.`
+  },
+  {
+    title: 'Tied grant',
+    description: `A lump sum payout that must be used for a particular purpose.
+    Guarantees a minimum amount of an activity by the recipient (in most cases),
+    and afterward behaves like an income grant (increase in income).`
   }
 ];
