@@ -1,4 +1,6 @@
 export const CATEGORY = {
+  PARTS_OF_SPEECH: 'Parts of speech',
+  SENTENCE_STRUCTURE: 'Sentence Structure',
   PUNCTUATION: 'Punctuation',
   CORRECT_GRAMMAR_BASICS: 'Correct Grammar Basics',
   DONT_ANESTHETIZE_YOUR_READERS: `Don't anesthetize your readers.`,
@@ -6,6 +8,115 @@ export const CATEGORY = {
 }
 
 export const grammarDefinitions = [
+  {
+    title: 'Noun',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `
+      A word that names a person, place, or thing.
+    `,
+  },
+  {
+    title: 'Pronoun',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word used in place of a noun.`
+  },
+  {
+    title: 'Verb',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word or word group that describes the action
+    or state of being of the subject.`
+  },
+  {
+    title: 'Adjective',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word that modifies or describes a noun or pronoun.`
+  },
+  {
+    title: 'Adverb',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word that modifies or describes a verb, adjective,
+    or other adverb.`
+  },
+  {
+    title: 'Preposition',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word that relates a noun or pronoun to some other
+    word in the sentence. The preposition and its following related words
+    constitute a prepositional phrase.`
+  },
+  {
+    title: 'Conjunction',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word used to join or connnect words, phrases, or clauses.`
+  },
+  {
+    title: 'Interjection',
+    category: CATEGORY.PARTS_OF_SPEECH,
+    description: `A word used to express emotion or surprise.`
+  },
+  {
+    title: 'Subjects',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `The thing that is doing or being something. Compound subjects
+    have more than one subject.`
+  },
+  {
+    title: 'Verb',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `What the subject is doing or being. When you have more than one,
+    it is a compound verb.`
+  },
+  {
+    title: 'Complement',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `The completion of the idea started by the subject and verb.`
+  },
+  {
+    title: 'Phrase',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `A group of related words without a subject and verb.`
+  },
+  {
+    title: 'Clause',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `A group of related words with a subject and a verb.
+    There are three types: Independent, Dependent, and Embedded.`
+  },
+  {
+    title: 'Independent (Main) clause.',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `A clause that conveys a complete idea and that can stand alone.
+    Also called a main clause.`
+  },
+  {
+    title: 'Dependent (Subordinate) clause',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `An idea that cannot stand alone; it depends on an independent
+    clause to complete its meaning. Also called a subordinate clause`
+  },
+  {
+    title: 'Embedded clause',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `A minor clause used within an independent or dependent clause.`
+  },
+  {
+    title: 'Conjunctions',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Connect clauses in a sentence.`
+  },
+  {
+    title: 'Coordinating Conjunctions',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Connect clauses of equal strength. There are seven: for, and,
+    nor, but, or, yet, and so (FANBOYS).`
+  },
+  {
+    title: 'Subordinating Conjunctions',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Connect clauses of unequal strength. Place the main emphasis on
+    one clause and secondary emphasis on the other. Examples include if, as, unless,
+    although, when, after, and because.`
+  },
   {
     title: 'Hyphenate your phrasal adjectives',
     category: CATEGORY.PUNCTUATION,
