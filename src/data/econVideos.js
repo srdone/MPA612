@@ -1,30 +1,42 @@
 export const econVideos = [
   {
-    title: 'What is Economics',
-    youTubeID: 'h3TJfjCPGWI',
+    title: 'Price Ceilings and Floors',
+    youTubeID: '1EzY4Vl460U'
   },
   {
-    title: 'Supply',
-    youTubeID: 'QgDpXKyavwc'
+    title: 'Consumer Surplus, Producer Surplus, and Deadweight Loss',
+    youTubeID: 'n0LXkA9kato'
+  },
+  {
+    title: 'Taxes on producers',
+    youTubeID: '9gwTH4Yme8I'
+  },
+  {
+    title: 'Perfect Competition',
+    youTubeID: 'Z9e_7j9WzA0'
   },
   {
     title: 'Demand',
-    youTubeID: 'JCeycXeWA0M'
+    youTubeID: 'LwLh6ax0zTE'
   },
   {
-    title: 'Factors Affecting Demand - Increase in Income',
-    youTubeID: '34Pm_sMyeqE'
+    title: 'Supply',
+    youTubeID: 'ewPNugIqCUM'
   },
   {
-    title: 'Factors Affecting Supply - Increased Number of Producers',
-    youTubeID: 'ytVZRhr67iE'
+    title: 'Shifting Demand and Supply',
+    youTubeID: 'V0tIOqU7m-c'
   },
   {
-    title: 'Supply and Demand - Low Skilled Workers Market',
-    youTubeID: 'imm_bSlpLI8'
+    title: 'Double Shifts in Demand and Supply',
+    youTubeID: 'K0AQ9rK8MN4'
   },
   {
-    title: 'Price Floor (Minumum Wage)',
-    youTubeID: '9_CC64rjSvE'
+    title: 'The economics in Indiana Jones',
+    youTubeID: 'RP0j3Lnlazs'
+  },
+  {
+    title: 'The Economics of Disneyland',
+    youTubeID: 'h9wV7J7bef0'
   }
 ];
