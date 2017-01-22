@@ -24,7 +24,8 @@ export const grammarDefinitions = [
     title: 'Verb',
     category: CATEGORY.PARTS_OF_SPEECH,
     description: `A word or word group that describes the action
-    or state of being of the subject.`
+    or state of being of the subject. A transitive verb requires a
+    direct object to receive the action. An intransitive verb does not.`
   },
   {
     title: 'Adjective',
@@ -116,6 +117,61 @@ export const grammarDefinitions = [
     description: `Connect clauses of unequal strength. Place the main emphasis on
     one clause and secondary emphasis on the other. Examples include if, as, unless,
     although, when, after, and because.`
+  },
+  {
+    title: 'Sentence Types',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Based on the number and types of clauses in the sentence,
+    sentences can be classified as Simple, Compound, Complex, or Compound Complex.`
+  },
+  {
+    title: 'Simple Sentence',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Contains one independent clause and no dependent clauses.`,
+    examples: [
+      {
+        example: `After last week's events, nothing surprises me.`
+      }
+    ]
+  },
+  {
+    title: 'Compound Sentence',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Contains two independent clauses and no dependent clauses.`,
+    examples: [
+      {
+        example: `I will compose the text and you create the graphics.`
+      }
+    ]
+  },
+  {
+    title: 'Complex Sentence',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Contains one independent clause and one or more dependent
+    clauses`,
+    examples: [
+      {
+        example: `When the copier arrives, you complete the warranty paperwork`
+      }
+    ]
+  },
+  {
+    title: 'Compound Complex',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `Contains a minimum of two independent clauses, and one
+    dependent clause`,
+    examples: [
+      {
+        example: `After the meeting starts, I will present the report, and you
+        answer the questions.`
+      }
+    ]
+  },
+  {
+    title: 'Sentence composition guidelines',
+    category: CATEGORY.SENTENCE_STRUCTURE,
+    description: `SVC (Subject, Verb, Complement) - use strong subjects,
+    place verbs near subjects, keep complements clear an uncluttered.`
   },
   {
     title: 'Hyphenate your phrasal adjectives',
